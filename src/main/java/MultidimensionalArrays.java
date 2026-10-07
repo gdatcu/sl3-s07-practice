@@ -1,5 +1,6 @@
 public class MultidimensionalArrays {
     public static void main(String[] args) {
+
         // Un array 2D pentru a stoca date de login: (username, password)
         // 3 rânduri și 2 coloane
         String[][] dateLogin = {

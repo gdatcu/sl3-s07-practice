@@ -3,6 +3,7 @@ import java.util.Set;
 import java.util.Arrays;
 
 public class UtilizatoriComuni {
+
     public static void main(String[] args) {
         // Liste inițiale de utilizatori
         String[] participantiSesiuneA = {"ana.pop", "ion.vasile", "maria.ionescu", "radu.george"};

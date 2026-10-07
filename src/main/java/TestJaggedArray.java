@@ -7,7 +7,9 @@ public class TestJaggedArray {
         int[][] jaggedArray = new int[3][];
         jaggedArray[0] = new int[]{1, 2};       // First row has 2 columns
         jaggedArray[1] = new int[]{3, 4, 5};   // Second row has 3 columns
-        jaggedArray[2] = new int[]{6};         // Third row has 1 column
+        jaggedArray[2] = new int[]{6};// Third row has 1 column
+
+//        System.out.println(jaggedArray[0][2]);
         // --- End of your code snippet ---
 
         // --- Code to test/verify the array ---

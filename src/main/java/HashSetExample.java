@@ -16,8 +16,10 @@ public class HashSetExample {
         System.out.println("Numărul de emailuri unice: " + emailuriUnice.size()); // Va fi 3
 
         // Verificarea existenței unui element
-        if (emailuriUnice.contains("bogdan@test.com")) {
+        if (emailuriUnice.contains("bogdan1@test.com")) {
             System.out.println("Email-ul lui Bogdan a fost deja adăugat.");
+        } else {
+            System.out.println("Email-ul nu a fost adăugat.");
         }
     }
 }

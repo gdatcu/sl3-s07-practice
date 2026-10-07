@@ -5,12 +5,16 @@ public class HashMapExample {
     public static void main(String[] args) {
         // Declararea unui HashMap care mapează String (nume browser) la Integer (număr versiune)
         Map<String, Integer> versiuniBrowser = new HashMap<>();
+        // int, double, float, long, short, byte, char, boolean
+        // String, Integer, Double, Float, Long, Short, Byte, Character, Boolean
 
         // 1. Adăugarea de perechi (put)
         versiuniBrowser.put("Chrome", 108);
         versiuniBrowser.put("Firefox", 107);
         versiuniBrowser.put("Edge", 108);
-        versiuniBrowser.put("Chrome", 109); // Suprascrie valoarea pentru cheia "Chrome"
+        versiuniBrowser.put(null, 123);
+        System.out.println("Harta versiunilor: " + versiuniBrowser);
+        versiuniBrowser.put("Chrome", 110); // Suprascrie valoarea pentru cheia "Chrome"
 
         System.out.println("Harta versiunilor: " + versiuniBrowser);
 
